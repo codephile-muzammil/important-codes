@@ -1,5 +1,5 @@
 /*
-Author: Muzammil Bro
+Author: Muzammil
 Problem: Check whether a 5x5 matrix is upper triangular (anti-diagonal logic)
 Time: O(N^2), Space: O(N^2)
 Note: We can do it in simple way but this one is my understanding
