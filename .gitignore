@@ -1,0 +1,22 @@
+# C++ build files
+*.o
+*.obj
+*.exe
+*.out
+build/
+bin/
+
+# Python
+__pycache__/
+*.pyc
+env/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
