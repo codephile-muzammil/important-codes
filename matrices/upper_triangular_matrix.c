@@ -61,7 +61,7 @@ void check_u_tri_wrt_anti_diag(int a[5][5])					/*
 		}
 	}
 	if(flag==0)
-	{
+	{d
 		printf("the given matrix is upper triangular\n");
 	}
 	if(flag==1)
