@@ -54,14 +54,14 @@ void check_u_tri_wrt_anti_diag(int a[5][5])					/*
 	{
 		for(j=0;j<=4;j++)
 		{
-			if(i+j>5&&a[i][j]!=0)
+			if(i+j<4&&a[i][j]!=0)
 			{
 				flag=1;
 			}
 		}
 	}
 	if(flag==0)
-	{d
+	{
 		printf("the given matrix is upper triangular\n");
 	}
 	if(flag==1)
@@ -109,4 +109,5 @@ int main()
 	check_u_tri_wrt_main_diag(a);
   return 0;
 }
+
 
